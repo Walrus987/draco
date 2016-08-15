@@ -1,0 +1,253 @@
+html {
+    width:100%;
+    height:100%;}
+body {
+    width:100%;
+    height:100%;
+    color: #fff;
+    font-size:18px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;}
+a {
+    color:#fff;
+    font-weight: bold;}
+.btn {
+    -webkit-transition:all 0.8s;}
+
+a {
+    padding-bottom:2px;
+    border-bottom:2px rgba(255,255,255,0.4);
+    font-weight: 400;
+    font-family: 'Roboto', sans-serif;}
+a.btn:hover {
+    border-color:#fff;
+    border-color:rgba(255,255,255,1);
+    background: white;}
+/*a:hover {
+    background-color: white;
+    opacity:0.1;
+    color:white;}*/
+h1, h5 {
+    font-weight: 900;
+    font-family: 'Roboto', sans-serif;}
+.pull-right {
+  text-align: right;}
+
+/*--------------------------------*/
+#overlay {
+    display:block;
+    position: fixed;
+    top:0;
+    left:0;
+    width:100%;
+    height:100%;
+    background: url(http://www.weseedragons.com/assets/images/theme_images/background-image-overlay.png) repeat;
+    z-index: -1;}
+/*--------------------------------*/
+#left-panel {
+    position: fixed;
+    display: block;
+    background: rgba(0,0,0,0.3);}
+#left-panel ul{
+    list-style: none;}
+#left-panel ul li {
+    margin: 10% 0 10% 0;}
+
+     
+
+/*--------------------------------*/
+#left-sidebar .logo {
+    padding:15px 0 20px 0;
+    text-align: center;
+    background: rgba(0,0,0,0.1);
+}
+
+#left-panel  .logotype img {
+    display:block;
+    margin:0 auto;
+    width:auto;
+    max-width:75%;
+    height:auto;
+}
+
+    @media (min-width: 768px) {
+        #left-panel  .logotype {
+            padding:28px 0 20px 0;
+            background: none;
+        }
+    }
+    @media (min-width: 992px) {
+        #left-panel  .logotype {
+            padding:42px 0 30px 0;
+        }
+    }
+    @media (min-width: 1200px) {
+
+    }
+
+#left-panel  #menu {
+    padding-left: 25%;
+    padding-right: 25%;}
+/*#left-panel  #menu>li>a:hover{
+    background:rgb(255,255,255,0.1);}*/
+    
+
+    @media (max-width: 768px) {
+        .hidden-panel {
+            display:block !important;}  
+        .col-sm-3 {
+            display:none !important;} }
+
+
+/*----------------------*/
+.col-sm-9 {
+    padding: 0% 5% 0% 10%;}
+#first_page, #history, #do, #contact {
+    width:100%;
+    height:auto;}
+#first_page h1{
+    font-size: 3.25em; 
+    line-height: 1.1;}
+    
+    @media (max-width: 1200px) {
+        #first_page h1{
+            font-size: 3.25em;} }
+    @media (max-width: 992px) {
+        #first_page h1{
+            font-size: 2.75em;} }
+    @media (max-width: 768px) {
+        #first_page h1{
+            font-size: 2.25em;
+            text-align: center;}  }
+
+#first_page p{
+    font-size: 1.5em;}
+
+    @media (max-width: 1200px) {
+        #first_page p{
+            font-size: 1.5em;} }
+    @media (max-width: 992px) {
+        #first_page p{
+            font-size: 1.2em;} }
+    @media (max-width: 768px) {
+        #first_page p{
+            font-size: 1em;
+            text-align: center;}  }
+#history h1{
+    font-size: 3.25em; 
+    line-height: 1.1;}
+
+    @media (max-width: 1200px) {
+        #history h1{
+            font-size: 3.25em;} }
+    @media (max-width: 992px) {
+        #history h1{
+            font-size: 2.75em;} }
+    @media (max-width: 768px) {
+        #history h1{
+            font-size: 2.25em;
+            text-align: center;}  }
+
+
+#history p{
+    font-size: 1.2em;}
+
+    @media (max-width: 1200px) {
+        #history p{
+            font-size: 1.2em;} }
+    @media (max-width: 992px) {
+        #history p{
+            font-size: 1em;} }
+    @media (max-width: 768px) {
+        #history p{
+            font-size: 0.9em;
+            text-align: center;}  }
+
+#do h1{
+    font-size: 3.25em; 
+    line-height: 1.1;}
+
+    @media (max-width: 1200px) {
+        #do h1{
+            font-size: 3.25em;} }
+    @media (max-width: 992px) {
+        #do h1{
+            font-size: 2.75em;} }
+    @media (max-width: 768px) {
+        #do h1{
+            font-size: 2.25em;
+            text-align: center;}  }
+
+#do p{
+    font-size: 1.2em;}
+
+    @media (max-width: 1200px) {
+        #do p{
+            font-size: 1.2em;} }
+    @media (max-width: 992px) {
+        #do p{
+            font-size: 1em;} }
+    @media (max-width: 768px) {
+        #do p{
+            font-size: 0.9em;
+            text-align: center;}  }
+    
+#do  .text  p{
+    font-size: 0.8em;}
+
+    @media (max-width: 1200px) {
+        #do p{
+            font-size: 0.8em;} }
+    @media (max-width: 992px) {
+        #do p{
+            font-size: 0.7em;} }
+    @media (max-width: 768px) {
+        #do p{
+            font-size: 0.6em;
+            text-align: center;} 
+        i, .icon {text-align: center;}}
+
+#contact h1{
+    font-size: 3.25em; 
+    line-height: 1.1;}
+
+    @media (max-width: 1200px) {
+        #contact h1{
+            font-size: 3.25em;} }
+    @media (max-width: 992px) {
+        #contact h1{
+            font-size: 2.75em;} }
+    @media (max-width: 768px) {
+        #contact h1{
+            font-size: 2.25em;
+            text-align: center;}  }
+
+#contact p{
+    font-size: 1.2em;}
+
+    @media (max-width: 1200px) {
+        #contact p{
+            font-size: 1.2em;} }
+    @media (max-width: 992px) {
+        #contact p{
+            font-size: 1em;} }
+    @media (max-width: 768px) {
+        #contact p{
+            font-size: 0.9em;
+            text-align: center;}  }
+
+
+.icon{
+    font-size: 200%;}
+
+/*-------------------------*/
+/*footer*/
+#footer {
+    display: block; 
+    position: fixed;
+    bottom : 0;}
+#go_top, .footer-text-line {
+    display: inline-block; }
+#contact a:hover {
+    color:chartreuse;
+    background-color: transparent;}
