@@ -1,0 +1,797 @@
+<!DOCTYPE html>
+<html lang="ru">
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+        <title>Unify</title>
+ 
+        <!-- Web Fonts -->
+	    <link rel='stylesheet' type='text/css' href = 'https://fonts.googleapis.com/css?family=Open+Sans:400,300,600&subset=cyrillic,latin'>
+        
+        <!-- Bootstrap -->
+        <link href="css/bootstrap.css" rel="stylesheet">
+        <link href="css/font-awesome.css" rel="stylesheet">
+        <link href="css/font-awesome.min.css" rel="stylesheet">
+        <!--<link href="https://htmlstream.com/preview/unify-v1.9.5/assets/plugins/font-awesome/css/font-awesome.min.css" rel="stylesheet">-->
+        <link href="css/homework_3.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/animate.css">
+        <!--<link rel="stylesheet" href="https://htmlstream.com/preview/unify-v1.9.5/assets/plugins/fancybox/source/jquery.fancybox.css">-->
+        <link rel="stylesheet" href="css/jquery.fancybox.css">
+        <!--<link media="all" rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.0.8/css/jquery.mb.YTPlayer.min.css">-->
+        <!--<link rel="stylesheet" href="https://htmlstream.com/preview/unify-v1.9.5/assets/plugins/line-icons/line-icons.css">-->
+        <!--<link rel="stylesheet" href="css/wow.css">-->
+        <!--<link rel="stylesheet" href="https://htmlstream.com/preview/unify-v1.9.5/assets/plugins/line-icons/line-icons.css">-->
+        
+    </head>
+    
+    <body>
+        <div class="container-fluid">
+            <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                <div class="container">     
+                      <div class="navbar-header">
+                          <!--BUTTON FOR SMALL SCREENS MOB -->
+                          <!--<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu_acc">
+                              <span class="sr-only">Open navigation</span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+							  <span class="icon-bar"></span>
+                          </button>-->
+                          <a class="navbar-brand" href="#">
+                              <img class="logo" src="pictures/logo3-light.png">
+                          </a>
+                      </div> 
+                    
+                      
+                      <div id="menu_acc" style="font-family: 'Open Sans', Calibri, Arial, sans-serif;">
+                          <ul id="menu">
+                            <ul>
+                               <li class="active has-sub"><a href="#"><i class="fa fa-sitemap"></i>&nbsp; <span>Home</span></a>
+                                  <ul>
+                                      <li><a href="#"><span>Option 1: Default Page</span></a></li>
+                                      <li><a href="#"><span>Option 2: One Page</span></a></li>
+                                      <li><a href="#"><span>Option 3: Shop UI</span></a></li>
+                                      <li><a href="#"><span>Option 4: Blog Template</span></a></li> 
+                                      <li><a href="#"><span>Option 5: Home Discover</span></a></li> 
+                                      <li><a href="#"><span>Option 6: Home Incredible</span></a></li> 
+                                      <li><a href="#"><span>Option 7: Home Creative</span></a></li>  
+                                      <li><a href="#"><span>Option 8: Home Aspire</span></a></li> 
+                                      <li><a href="#"><span>Option 1: Default Page</span></a></li>
+                                      <li><a href="#"><span>Option 2: One Page</span></a></li>
+                                      <li><a href="#"><span>Option 3: Shop UI</span></a></li>
+                                      <li><a href="#"><span>Option 4: Blog Template</span></a></li> 
+                                      <li><a href="#"><span>Option 5: Home Discover</span></a></li> 
+                                      <li><a href="#"><span>Option 6: Home Incredible</span></a></li> 
+                                      <li><a href="#"><span>Option 7: Home Creative</span></a></li>  
+                                      <li class="last"><a href="#"><span>Option 8: Home Aspire</span></a></li>     
+                                  </ul>
+                                     
+                               <li class="has-sub"><a href="#"><span>Pages</span></a>
+                                  <ul>
+                                      <li><a href="#"><span>About Pages</span></a></li>
+                                      <li><a href="#"><span>Service Pages</span></a></li>
+                                      <li><a href="#"><span>Contact Pages</span></a></li>
+                                      <li><a href="#"><span>Profile Pages</span></a></li>
+                                      <li><a href="#"><span>Job Pages</span></a></li>
+                                      <li><a href="#"><span>Pricing Tables</span></a></li>
+                                      <li><a href="#"><span>Login and Registration</span></a></li>
+                                      <li><a href="#"><span>FAQs Pages</span></a></li>
+                                      <li><a href="#"><span>Email Templates</span></a></li>
+                                      <li><a href="#"><span>Search Results</span></a></li>
+                                      <li><a href="#"><span>Coming Soon Pages</span></a></li>
+                                      <li><a href="#"><span>Error Pages</span></a></li>
+                                      <li><a href="#"><span>Invioce Pages</span></a></li>
+                                      <li class="last"><a href="#"><span>Clients Page</span></a></li>
+                                  </ul>
+                               </li>
+                               <li class="has-sub"><a href="#"><span>Blog</span></a>
+                                  <ul>
+                                      <li><a href="#"><span>Blog Large Image</span></a></li>
+                                      <li><a href="#"><span>Blog Medium Image</span></a></li>
+                                      <li><a href="#"><span>Blog Item Pages</span></a></li>
+                                      <li><a href="#"><span>Blog Simple Pages</span></a></li>
+                                      <li class="last"><a href="#"><span>Masonry Grid Blog</span></a></li>
+                                  </ul>
+                               </li>
+                               <li class="has-sub"><a href="#"><span>Portfolio</span></a>
+                                  <ul>
+                                      <li><a href="#"><span>No Space Boxed</span></a></li>
+                                      <li><a href="#"><span>Grid Boxed</span></a></li>
+                                      <li><a href="#"><span>Grid Text Boxed</span></a></li>
+                                      <li class="last"><a href="#"><span>No Space Full Width</span></a></li>
+                                  </ul>
+                               </li> 
+                               <li class="has-sub"><a href="#"><span>Features</span></a>
+                                  <ul>
+                                      <li><a href="#"><span>Headers</span></a></li>
+                                      <li><a href="#"><span>Footers</span></a></li>
+                                      <li><a href="#"><span>Gallery Examples</span></a></li>
+                                      <li class="last"><a href="#"><span>Animations on Scroll</span></a></li>
+                                  </ul>
+                               </li> 
+                               <li class="has-sub"><a href="#"><span>Shortcodes</span></a>
+                                  <ul>
+                                      <li><h2>Typography &amp; Components</h2></li>
+                                      <li><a href="#"><i class="fa fa-sort-alpha-asc"></i> General Typography</a></li>
+                                      <li><a href="#"><i class="fa fa-magic"></i> Headings Options</a></li>
+                                      <li><a href="#"><i class="fa fa-ellipsis-h"></i> Dividers</a></li>
+                                      <li><a href="#"><i class="fa fa-quote-left"></i> Blockquote Blocks</a></li>
+                                      <li><a href="#"><i class="fa fa-asterisk"></i> Box Shadows</a></li>
+                                      <li><a href="#"><i class="fa fa-comments"></i> Testimonials</a></li>
+                                      <li><a href="#"><i class="fa fa-tasks"></i> Tagline Boxes</a></li>
+                                      <li><a href="3"><i class="fa fa-align-justify"></i> Grid Layouts</a></li>
+                                      <li><a href="#"><i class="fa fa-comment"></i> Alerts &amp; Messages</a></li>
+                                      <li><a href="#"><i class="fa fa-tags"></i> Labels &amp; Badges</a></li>
+                                      <li><a href="#"><i class="fa fa-volume-down"></i> Audio/Videos &amp; Images</a></li>
+                                      <li><a href="#"><i class="fa fa-arrows-h"></i> Paginations</a></li>
+                                      <li><h2>Buttons &amp; Icons</h2></li>
+                                      <li><a href="#"><i class="fa fa-flask"></i> General Buttons</a></li>
+                                      <li><a href="#"><i class="fa fa-html5"></i> Brand &amp; Social Buttons</a></li>
+                                      <li><a href="#"><i class="fa fa-bolt"></i> Loading &amp; Hover Effects</a></li>
+                                      <li><a href="#"><i class="fa fa-chevron-circle-right"></i> General Icons</a></li>
+                                      <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Font Awesome Icons</a></li>
+                                      <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Line Icons</a></li>
+                                      <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Line Icons Pro</a></li>
+                                      <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Glyphicons Icons (Bootstrap)</a></li>
+                                      <li><h2>Common elements</h2></li>
+                                      <li><a href="#"><i class="fa fa-image"></i> Thumbnails</a></li>
+                                      <li><a href="#"><i class="fa fa-list-ol"></i> Accordion &amp; Tabs</a></li>
+                                      <li><a href="#"><i class="fa fa-dot-circle-o"></i> Timeline Option 1</a></li>
+                                      <li><a href="#"><i class="fa fa-dot-circle-o"></i> Timeline Option 2</a></li>
+                                      <li><a href="#"><i class="fa fa-table"></i> Tables</a></li>
+                                      <li><a href="#"><i class="fa fa-align-left"></i> Progress Bars</a></li>
+                                      <li><a href="#"><i class="fa fa-columns"></i> Panels</a></li>
+                                      <li><a href="#"><i class="fa fa-sliders"></i> Carousel Examples</a></li>
+                                      <li><a href="#"><i class="fa fa-map-marker"></i> Google Maps</a></li>
+                                      <li><a href="#"><i class="fa fa-align-center"></i> Vector Maps</a></li>
+                                      <li><h2>Forms &amp; Infographics</h2></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Common Bootstrap Forms</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> General Unify Forms</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Advanced Forms</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Form Layouts</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Advanced Layout Forms</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Form States</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Form Sliders</a></li>
+                                      <li><a href="#"><i class="fa fa-bars"></i> Modals</a></li>
+                                      <li><a href="#"><i class="fa fa-pie-chart"></i> Charts &amp; Countdowns</a></li>
+                                  </ul>
+                               </li>     
+                            </ul>  
+                          </ul>
+                      </div>
+                    
+                    
+                      <!--navigation for big screen-->
+                      <!--<nav class="collapse navbar-collapse" id="responsive_menu">-->
+                      <nav id="full_nav" font-family: 'Open Sans', Calibri, Arial, sans-serif;>      
+                          <ul class="nav">
+                            <li><a href="#">Home</a>
+                              <ul>
+                                <li><a class="submenu" href="#">Option 1: Default Page</a></li>
+                                <li><a class="submenu" href="#">Option 2: One Page</a>
+                                  <ul>
+                                    <li><a class="submenu" href="#">- One Page Template</a></li>
+                                    <li><a class="submenu" href="#">- One Page Dark Option</a></li>
+                                    <li><a class="submenu" href="#">- One Page Option 1</a></li>
+                                    <li><a class="submenu" href="#">- One Page Option 2</a></li>
+                                  </ul>  
+                                </li>
+                                <li><a class="submenu" href="#">Option 3: Shop UI</a>
+                                  <ul>
+                                    <li><a class="submenu" href="#">- Home Page</a></li>
+                                    <li><a class="submenu" href="#">- Product Page</a></li>
+                                    <li><a class="submenu" href="#">- Filter Grid Page</a></li>
+                                  </ul>  
+                                </li>
+                                <li><a class="submenu" href="#">Option 4: Blog Template</a></li>
+                                <li><a class="submenu" href="#">Option 5: Home Discover</a></li>
+                                <li><a class="submenu" href="#">Option 6: Home Incredible</a></li>
+                                <li><a class="submenu" href="#">Option 7: Home Creative</a></li>
+                                <li><a class="submenu" href="#">Option 8: Home Aspire</a></li> 
+                                <li><a class="submenu" href="#">Option 1: Default Page</a></li>
+                                <li><a class="submenu" href="#">Option 2: One Page</a></li>
+                                <li><a class="submenu" href="#">Option 3: Shop UI</a></li>
+                                <li><a class="submenu" href="#">Option 4: Blog Template</a></li>
+                                <li><a class="submenu" href="#">Option 5: Home Discover</a></li>
+                                <li><a class="submenu" href="#">Option 6: Home Incredible</a></li>
+                                <li><a class="submenu" href="#">Option 7: Home Creative</a></li>
+                                <li><a class="submenu" href="#">Option 8: Home Aspire</a></li>    
+                              </ul>  
+                            </li>
+                            <li><a href="#">Pages</a>
+                              <ul>
+                                <li><a class="submenu" href="#">About Pages</a></li>
+                                <li><a class="submenu" href="#">Service Pages</a></li>
+                                <li><a class="submenu" href="#">Contact Pages</a></li>
+                                <li><a class="submenu" href="#">Profile Pages</a></li>
+                                <li><a class="submenu" href="#">Job Pages</a></li>
+                                <li><a class="submenu" href="#">Pricing Tables</a></li>
+                                <li><a class="submenu" href="#">Login and Registration</a></li>
+                                <li><a class="submenu" href="#">FAQs Pages</a></li>
+
+                                <li><a class="submenu" href="#">Email Templates</a>
+                                  <ul>
+                                    <li><a class="submenu" href="#">Email Flat</a></li>
+                                    <li><a class="submenu" href="#">Email Modern</a></li>
+                                    <li><a class="submenu" href="#">Profile Pages</a></li>
+                                    <li><a class="submenu" href="#">Job Pages</a></li>
+                                    <li><a class="submenu" href="#">Pricing Tables</a></li>
+                                    <li><a class="submenu" href="#">Login and Registration</a></li>
+                                    <li><a class="submenu" href="#">FAQs Pages</a></li>
+                                  </ul>
+                                </li>    
+                                <li><a class="submenu" href="#">Search Results</a></li>
+                                <li><a class="submenu" href="#">Coming Soon Pages</a></li>
+                                <li><a class="submenu" href="#">Error Pages</a></li>
+                                <li><a class="submenu" href="#">Invioce Pages</a></li>
+                                <li><a class="submenu" href="#">Clients Page</a></li>  
+                              </ul>
+                            </li>
+                            <li><a href="#">Blog</a>
+                              <ul>
+                                <li><a class="submenu" href="#">Blog Large Image</a></li>
+                                <li><a class="submenu" href="#">Blog Medium Image</a>
+                                  <ul>
+                                    <li><a class="submenu" href="#">Ray</a></li>
+                                    <li><a class="submenu" href="#">Veronica</a></li>
+                                    <li><a class="submenu" href="#">Bushy</a></li>
+                                    <li><a class="submenu" href="#">Havoc</a></li>
+                                  </ul>
+                                </li>
+                                <li><a class="submenu" href="#">Blog Item Pages</a></li>
+                                <li><a class="submenu" href="#">Blog Simple Pages</a></li>
+                                <li><a class="submenu" href="#">Masonry Grid Blog</a></li>
+                              </ul>
+                            </li>
+                            <li><a href="#">Portfolio</a>
+                              <ul>
+                                <li><a class="submenu" href="#">No Space Boxed</a></li>
+                                <li><a class="submenu" href="#">Grid Boxed</a></li>
+                                <li><a class="submenu" href="#">Grid Text Boxed</a></li>
+                                <li><a class="submenu" href="#">No Space Full Width</a></li>
+                              </ul>  
+                            </li>
+                            <li><a href="#">Features</a>
+                              <ul>
+                                <li><a class="submenu" href="#">Headers</a></li>
+                                <li><a class="submenu" href="#">Footers</a></li>
+                                <li><a class="submenu" href="#">Gallery Examples</a></li>
+                                <li><a class="submenu" href="#">Animations on Scroll</a></li>
+                              </ul>
+                            </li>
+
+
+                            <li class="big-list"><a id="first" accesskey=""href="#">Shortcodes</a>
+                              <ul>
+                                <li>  
+                                  <div class="row big-list-row">
+                                    <div class="col-md-3">
+                                       <ol>
+                                         <li><h2>Typography &amp; Components</h2></li>
+                                         <li><a href="#"><i class="fa fa-sort-alpha-asc"></i> General Typography</a></li>
+                                         <li><a href="#"><i class="fa fa-magic"></i> Headings Options</a></li>
+                                         <li><a href="#"><i class="fa fa-ellipsis-h"></i> Dividers</a></li>
+                                         <li><a href="#"><i class="fa fa-quote-left"></i> Blockquote Blocks</a></li>
+                                         <li><a href="#"><i class="fa fa-asterisk"></i> Box Shadows</a></li>
+                                         <li><a href="#"><i class="fa fa-comments"></i> Testimonials</a></li>
+                                         <li><a href="#"><i class="fa fa-tasks"></i> Tagline Boxes</a></li>
+                                         <li><a href="3"><i class="fa fa-align-justify"></i> Grid Layouts</a></li>
+                                         <li><a href="#"><i class="fa fa-comment"></i> Alerts &amp; Messages</a></li>
+                                         <li><a href="#"><i class="fa fa-tags"></i> Labels &amp; Badges</a></li>
+                                         <li><a href="#"><i class="fa fa-volume-down"></i> Audio/Videos &amp; Images</a></li>
+                                         <li><a href="#"><i class="fa fa-arrows-h"></i> Paginations</a></li>
+                                       </ol>
+                                    </div>
+                                    <div class="col-md-3">
+                                       <ol>
+                                         <li><h2>Buttons &amp; Icons</h2></li>
+                                         <li><a href="#"><i class="fa fa-flask"></i> General Buttons</a></li>
+                                         <li><a href="#"><i class="fa fa-html5"></i> Brand &amp; Social Buttons</a></li>
+                                         <li><a href="#"><i class="fa fa-bolt"></i> Loading &amp; Hover Effects</a></li>
+                                         <li><a href="#"><i class="fa fa-chevron-circle-right"></i> General Icons</a></li>
+                                         <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Font Awesome Icons</a></li>
+                                         <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Line Icons</a></li>
+                                         <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Line Icons Pro</a></li>
+                                         <li><a href="#"><i class="fa fa-chevron-circle-right"></i> Glyphicons Icons (Bootstrap)</a></li>
+                                       </ol>
+                                    </div> 
+                                    <div class="col-md-3">
+                                       <ol>
+                                         <li><h2>Common elements</h2></li>
+                                         <li><a href="#"><i class="fa fa-image"></i> Thumbnails</a></li>
+                                         <li><a href="#"><i class="fa fa-list-ol"></i> Accordion &amp; Tabs</a></li>
+                                         <li><a href="#"><i class="fa fa-dot-circle-o"></i> Timeline Option 1</a></li>
+                                         <li><a href="#"><i class="fa fa-dot-circle-o"></i> Timeline Option 2</a></li>
+                                         <li><a href="#"><i class="fa fa-table"></i> Tables</a></li>
+                                         <li><a href="#"><i class="fa fa-align-left"></i> Progress Bars</a></li>
+                                         <li><a href="#"><i class="fa fa-columns"></i> Panels</a></li>
+                                         <li><a href="#"><i class="fa fa-sliders"></i> Carousel Examples</a></li>
+                                         <li><a href="#"><i class="fa fa-map-marker"></i> Google Maps</a></li>
+                                         <li><a href="#"><i class="fa fa-align-center"></i> Vector Maps</a></li>
+                                       </ol>
+                                    </div> 
+                                    <div class="col-md-3">
+                                       <ol>
+                                         <li><h2>Forms &amp; Infographics</h2></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Common Bootstrap Forms</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> General Unify Forms</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Advanced Forms</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Form Layouts</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Advanced Layout Forms</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Form States</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Form Sliders</a></li>
+                                         <li><a href="#"><i class="fa fa-bars"></i> Modals</a></li>
+                                         <li><a href="#"><i class="fa fa-pie-chart"></i> Charts &amp; Countdowns</a></li>
+                                       </ol>
+                                    </div>  
+                                  </div>  
+                                </li> 
+                              </ul>    
+                            </li>
+
+
+                            <li><a href="#">Demos</a></li>
+                          </ul>
+                      </nav>
+                    
+                    
+
+                
+                
+                
+                
+                </div>  
+            </div>  
+        </div>
+
+
+       
+
+
+
+      
+       <div id="trailer">
+	       <!--<div id="bgndVideo" class="player" 
+               data-property="{videoURL:'http://youtu.be/JCLAEHcIUic',containment:'body',autoPlay:true, mute:true, startAt:0, opacity:1, realfullscreen:true, showControls:false,quality:'highres'}">
+           </div>-->
+           <video id="video" width="100%" height="100%" autoplay="autoplay" loop="loop" preload="auto">
+		       <source src="Beachfront B-Roll- Corporate Cloud Time Lapse (Free to Use HD Stock Footage).mp4" type="video/mp4">
+           </video>
+           <div class="container" id="title-container">
+               <!--<div class="jumbotron" id="jumbo">-->
+               <p class="text-center animated wow fadeInUp" data-wow-duration="2s" id="title_first">NEW - SLEEK - STYLISH - MODERN</p>
+               <p class="text-center animated wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" id="title_second"> WE ARE CREATIVE COMPANY </p>
+               <p class="text-center animated wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s" id="title_third">Unify creative technology company providing key digital services.</p> 
+               <div class="button-container animated wow fadeInUp" data-wow-duration="2s" data-wow-delay="1s">
+                    <a href="#" class="content__cta">LEARN MORE</a>
+					<a href="#" class="content__cta">DOWNLOAD NOW</a>
+               </div>
+               <!--</div>-->
+          </div>
+                                
+      </div>
+            
+      <br><br><br>
+      <div class="container" id="container">
+          
+          <div class="row text-center" id="container_1">
+              <div class="col-md-4 container-2">
+                  <img src="pictures/01.png" class="image-md">
+				  <h2 class="title-md">Fully Responsive</h2>
+				  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</p>
+              </div>
+              <div class="col-md-4 container-2">
+                  <img src="pictures/02.png" class="image-md">
+                  <h2 class="title-md">HTML5 + CSS3</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</p>
+              </div>
+              <div class="col-md-4 container-2">
+                  <img src="pictures/03.png" class="image-md">
+                  <h2 class="title-md">Launch Ready</h2>
+                  <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cur modo, tortor mauris con</p>
+              </div>
+          </div>
+      </div>   
+
+      
+      <div class="container content-sm">
+          <div class="row" id="background">
+              <div class="col-sm-6 some-img">
+                  <img  alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/mockup/imac2.png"  class="img-responsive">
+              </div>
+              <div class="col-sm-6 some-txt">
+                  <br><br><br>
+                      <div class="headline-left some-text-headline">
+                          <h2 class="headline-brd">WE ARE UNIFY AGENCY</h2>
+                          <p>There are many variations of passages of Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+                      </div>
+                      <ul class="some-text-list margin-bottom-30" style=" list-style-type: none">
+                          <li><i class="fa fa-check" style="color:green;"></i> Suspendisse eget augue non dolor ultrices</li>
+                          <li><i class="fa fa-check" style="color:green;"></i> Donec eget aliquet tortor, quis lacinia dolor</li>
+                          <li><i class="fa fa-check" style="color:green;"></i> Curabitur ut augue at mi eleifend lobortis</li>
+                          <li><i class="fa fa-check" style="color:green;"></i> Eleifend eget aliquet tortor, quis lacinia dolor</li>
+                      </ul>
+                      <br><br>
+                      <a href="#" class="btn some-text-button" style="color:green">Learn More</a>
+                    
+              </div>   
+          </div>
+      </div> 
+
+       
+      <div class="container content-sm">
+          <div class="row">
+              <div class="container-header" style="text-align:center">
+                  <h2>Recent Works</h2>
+				  <p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#" style="color:green">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p>
+                 
+              </div>
+              
+              <ul class="list-portfolio">
+                  <div class="col-md-4 some-img" style="padding: 40px 10px 50px 40px">
+                      <a class="img-group fancybox" href="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img9.jpg" title="Project One" data-rel="gallery">
+							<img class="img-responsive" alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img9.jpg" alt="">
+							<br><span>
+								<i class="rounded fa fa-arrows-alt"></i>
+							</span>
+				      </a>
+				      <div><h3>Project One</h3></div>
+					  <small><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
+				      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet </p>
+                  </div>
+                  <div class="col-md-4 some-img" style="padding: 40px 25px 50px 25px">
+                      <a href="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img18.jpg" title="Project One" data-rel="gallery" class="img-group fancybox">
+							<img class="img-responsive" alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img18.jpg" alt="">
+							<br><span>
+								<i class="rounded fa fa-arrows-alt"></i>
+							</span>
+				      </a>
+				      <div><h3>Project Two</h3></div>
+					  <small><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
+				      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet </p>
+                  </div>
+                  <div class="col-md-4 some-img" style="padding: 40px 40px 50px 10px">
+                      <a href="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img22.jpg" title="Project One" data-rel="gallery" class="img-group fancybox">
+							<img class="img-responsive" alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img22.jpg" alt="">
+							<br><span>
+								<i class="rounded fa fa-arrows-alt"></i>
+							</span>
+				      </a>
+				      <div><h3>Project Three</h3></div>
+					  <small><i class="fa fa-tag"></i><a href="#">Technology</a>, <a href="#">Business</a></small>
+				      <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, justo sit amet </p>
+                  </div>
+              </ul>      
+          </div>
+      </div>      
+
+      
+      <br>
+      <div class="container parallax-window-1" data-parallax="scroll" data-image-src="http://www.pptbackgroundstemplates.com/backgrounds/laugh-yellow-blue-nice-ppt-backgrounds-powerpoint.jpg" data-natural-height="" data-natural-width="">
+          <div class="row"> 
+                  
+              <div class="col-md-7" >
+                  <div>
+				      <h2 class="headline-brd">Unify is Fully Responsive</h2>
+					  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas moles</p>
+				  </div>
+                  <div class="row">
+				      <div class="col-sm-5">
+                          <ul class="some-text-list">
+						      <li><i class="fa fa-check" style="color:green;"></i> Donec id elit non mi porta gravida</li>
+							  <li><i class="fa fa-check" style="color:green;"></i> Corporate and Creative</li>
+							  <li><i class="fa fa-check" style="color:green;"></i> Responsive Bootstrap Template</li>
+							  <li><i class="fa fa-check" style="color:green;"></i> Corporate and Creative</li>
+						  </ul>
+                      </div>
+                      <div class="col-sm-5 col-sm-offset-1">
+                          <ul class="some-text-list">
+                              <li><i class="fa fa-check" style="color:green;"></i> Donec id elit non mi porta gravida</li>
+                              <li><i class="fa fa-check" style="color:green;"></i> Corporate and Creative</li>
+                              <li><i class="fa fa-check" style="color:green;"></i> Responsive Bootstrap Template</li>
+                              <li><i class="fa fa-check" style="color:green;"></i> Corporate and Creative</li>
+                          </ul>
+                      </div>      
+                  </div>      
+              </div>
+              
+              <div class="col-md-5">
+                  <img alt="" class="img-responsive" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/mockup/2.png" style="position: relative;
+                  z-index:-1;">
+              </div>
+              
+          </div>
+      </div>   
+      
+      <br>
+      <div class="container slider">
+          <div class="headline-left margin-bottom-40">
+              <h2 class="headline-brd">Latest Shots</h2>
+          </div>
+          <div class="row">
+              <div class="col-sm-6">
+			      <div id="carousel" class="carousel slide">
+                      <!--slide indicator-->
+                      <ol class="carousel-indicators">
+                          <!-- data-target - slider identificator java-script-->
+                          <li class="active" data-target="#carousel" data-slide-to="0"></li>
+                          <li data-target="#carousel" data-slide-to="1"></li>
+                          <li data-target="#carousel" data-slide-to="2"></li>
+                      </ol>  
+        
+                      <!--Slides-->
+                      <div class="carousel-inner" >
+                          <div class="item active">
+                              <img src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img12.jpg" alt="text enable image" >
+                              <!--slide describe-->
+                              <div class="carousel-caption">
+                                  <p>Create</p>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <img src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img16.jpg" alt="text enable image" >
+                              <!--slide describe-->
+                              <div class="carousel-caption">
+                                  <p>Eat</p>
+                              </div>
+                          </div>
+                          <div class="item">
+                              <img src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/main/img22.jpg" alt="text enable image" >
+                              <!--slide describe-->
+                              <div class="carousel-caption">
+                                  <p>Explore</p>
+                              </div>
+                          </div>
+                      </div>
+        
+                      <!--Arrows toggle-->
+                      <a href="#carousel" class="left carousel-control" data-slide="prev">
+                          <span class="glyphicon glyphicon-chevron-left"></span>
+                      </a>
+                      <a href="#carousel" class="right carousel-control" data-slide="next">
+                          <span class="glyphicon glyphicon-chevron-right"></span>
+                      </a>
+                  </div>  
+              </div>
+              
+              <div class="col-sm-6">
+                  <h3>Justo cras odio apibus ac afilisi</h3><br>
+				  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In porta ipsum vel mi gravida mattis. Ut sit amet laoreet diam. Fusce iaculis sollicitudin purus, in tristique urna. Suspendisse potenti. Fusce non sem efficitur leo fermentum porttitor ut vitae orci. Aliquam erat volutpat.</p><br>
+				  <p>Sed consectetur blandit ornare. Etiam at ante est. Nunc sed luctus ipsum, eu tincidunt justo. Sed id venenatis tellus. Mauris a cursus dolor. Maecenas sed magna non est interdum sollicitudin eget vitae ex. Ut eget lacus lorem.</p><br>
+				  <button class="btn-u text-uppercase" type="button">View More</button>
+              </div>      
+          </div>
+      </div>      
+       
+      
+      <br> <br>
+      <div class="container content-sm-1 parallax-window" data-parallax="scroll" data-image-src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/bg/11.jpg">
+          <div class="container">   
+              
+                  <div class="headline">
+                      <h2  style="text-align:center; color:white">What People Are Saying</h2>
+                      <p style="color:white">Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p>
+                  </div>
+                  <div class="row">
+                      <div class="col-sm-4 people">
+                          <div class="people-1 flat-testimonials-in">
+                              <img alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/team/img1-sm.jpg" class="img-circle rounded-x img-responsive another-img">
+                              <h3>Anthony Connor</h3>
+                              <p><span style="color:green">Software Developer</span></p>
+                              <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis, magna id sem ipsum mi interduml</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 people">
+                          <div class="people-1 flat-testimonials-in">
+                              <img alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/team/img2-sm.jpg" class="img-circle rounded-x img-responsive another-img">
+                              <h3>Angela Danil</h3>
+                              <p><span class="color-green" style="color:green">Web Designer</span></p>
+                              <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis, magna id sem ipsum mi interduml</p>
+                          </div>
+                      </div>
+                      <div class="col-sm-4 people">
+                          <div class="people-1 flat-testimonials-in">
+                              <img alt="" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/team/img3-sm.jpg" class="img-circle rounded-x img-responsive another-img">
+                              <h3>Anthony Connor</h3>
+                              <p><span class="color-green" style="color:green">Software Developer</span></p>
+                              <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis, magna id sem ipsum mi interduml</p>
+                          </div>
+                      </div>
+                 
+              </div>
+          </div>           
+      </div>
+      <br><br>
+      <i class="rounded-x icon-layers"></i>    
+      <div class="container provide">
+          <div class="headline">
+              <h2  style="text-align:center">What We Provide</h2>
+              <p>Integer odio ligula, tincidunt id volutpat et, imperdiet eget mi. Quisque laoreet porttitor turpis sed <a href="#">fermentum</a>. Nullam sodales blandit nisi, tristique tempor nunc hendrerit at. Sed posuere mollis orci</p>
+          </div>  
+          
+          <div class="row">
+              <div class="col-md-4">
+                  <i class="rounded fa fa-list fa-2x"></i>
+				  <div class="overflow-h">
+				      <h3 class="no-top-space">Responsive Layout</h3>
+					  <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+				  </div>
+                  <i class="rounded fa fa-cog fa-2x"></i>
+				  <div class="overflow-h">
+				      <h3 class="no-top-space">Color Options</h3>
+					  <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+				  </div>
+              </div>
+              <div class="col-md-4">
+                  <i class="rounded fa fa-headphones fa-2x"></i>
+				  <div class="overflow-h">
+				      <h3 class="no-top-space">Outstanding Support</h3>
+					  <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+				  </div>
+                  <i class="rounded fa fa-user fa-2x"></i>
+				  <div class="overflow-h">
+				      <h3 class="no-top-space">User Friendly</h3>
+					  <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+				  </div>
+              </div>
+              <div class="col-md-4">
+                  <i class="rounded fa fa-wrench fa-2x"></i>
+				  <div class="overflow-h">
+				      <h3 class="no-top-space">Customizable Design</h3>
+					  <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+				  </div>
+                  <i class="rounded fa fa-star-o fa-2x"></i>
+				  <div class="overflow-h">
+				      <h3 class="no-top-space">Free Updates</h3>
+					  <p>Proin et augue vel nisi rhoncus tincidunt. Cras venenatis</p>
+				  </div>
+              </div>
+          </div>
+      
+      </div>
+        
+      <br><br><br><br><br><br><br><br><br><br>  
+      <div class="footer">
+          <div class="footer-1"> 
+              <div class="container">
+                  <div class="row">
+                      <div class="col-md-3">
+                          <a href="#"><img id="logotype-footer" src="https://htmlstream.com/preview/unify-v1.9.5/assets/img/logo2-default.png" alt=""></a>
+				          <p>About Unify dolor sit amet, consectetur adipiscing elit. Maecenas eget nisl id libero tincidunt sodales.</p>
+						  <p>Duis eleifend fermentum ante ut aliquam. Cras mi risus, dignissim sed adipiscing ut, placerat non arcu.</p>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="head"><h2>Latest Posts</h2></div>
+                          <ul id="footer">
+                              <li>
+                                  <a href="#">Incredible content</a>
+                                  <small>May 8, 2014</small>
+                              </li>
+                              <li>
+                                  <a href="#">Best shoots</a>
+                                  <small>June 23, 2014</small>
+                              </li>
+                              <li>
+                                  <a href="#">New Terms and Conditions</a>
+                                  <small>September 15, 2014</small>
+                              </li>
+                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="head"><h2>Useful Links</h2></div>
+				          <ul>
+                              <li><a href="#">About us</a><i class="fa fa-angle-right"></i></li>
+                              <li><a href="#">Portfolio</a><i class="fa fa-angle-right"></i></li>
+                              <li><a href="#">Latest jobs</a><i class="fa fa-angle-right">  </i></li>
+                              <li><a href="#">Community</a><i class="fa fa-angle-right"></i></li>
+                              <li><a href="#">Contact us</a><i class="fa fa-angle-right"></i></li>
+                          </ul>
+                      </div>
+                      <div class="col-md-3">
+                          <div class="head"><h2>Contact Us</h2></div>
+                          <p class="address">
+								25, Lorem Lis Street, Orange <br>
+								California, US <br>
+								Phone: 800 123 3456 <br>
+								Fax: 800 123 3456 <br>
+								Email: <a href="mailto:info@anybiz.com">info@anybiz.com</a>
+							</p>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+          <div class="copyright">
+				<div class="container">
+					<div class="row">
+                        <div class="col-md-6">
+                            <p>
+								2015 &copy; All Rights Reserved.
+								<a href="#">Privacy Policy</a> | <a href="#">Terms of Service</a>
+							</p>
+                        </div>
+                        <div class="col-md-5">
+                            <ul class="social-networks">
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Facebook">
+										<i class="fa fa-facebook"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Skype">
+										<i class="fa fa-skype"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Google Plus">
+										<i class="fa fa-google-plus"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Linkedin">
+										<i class="fa fa-linkedin"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Pinterest">
+										<i class="fa fa-pinterest"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Twitter">
+										<i class="fa fa-twitter"></i>
+									</a>
+								</li>
+								<li>
+									<a href="#" class="tooltips" data-toggle="tooltip" data-placement="top" title="" data-original-title="Dribbble">
+										<i class="fa fa-dribbble"></i>
+									</a>
+								</li>
+                                
+							</ul>
+                        </div>
+                        <div class="col-md-1">
+                            <!--scroller-->
+                            <a href="#" class="scrollToTop">Scroll To Top <img src="http://findicons.com/files/icons/1609/ose_png/256/arrow_up.png" class="img-responsive"></a>
+                        </div>    
+                    
+                    </div>
+              </div>
+          </div>
+          
+      </div>    
+              
+              
+      <!--<img src="pictures/greece.jpg">-->
+      <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+      <script src="js/bootstrap.js"></script>
+      <!-- Include all compiled plugins (below), or include individual files as needed -->
+      <script src="js/wow.js"></script>
+      <!--<script src="https://htmlstream.com/preview/unify-v1.9.5/assets/plugins/wow-animations/js/wow.min.js"></script>-->
+      <script src="js/jquery.fancybox.js"></script>  
+      <script src="js/jquery.fancybox.pack.js"></script> 
+      <!--<script src="https://htmlstream.com/preview/unify-v1.9.5/assets/js/plugins/fancy-box.js"></script>  
+      <script src="https://htmlstream.com/preview/unify-v1.9.5/assets/plugins/fancybox/source/jquery.fancybox.pack.js"></script>-->  
+      
+      <script src="js/parallax.js"></script>    
+      <!--<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mb.YTPlayer/3.0.8/jquery.mb.YTPlayer.min.js"></script>            
+      
+      <script type="text/javascript">
+          new WOW().init();
+          
+          $(function(){
+              jQuery("#bgndVideo").YTPlayer();
+                      });
+          /*FancyBox.initFancybox();*/
+      </script>  -->  
+        
+      <script src="js/homework_3.js"></script>
+
+
+        
+        
+          
+    </body>
+</html>    
