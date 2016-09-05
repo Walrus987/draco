@@ -12,6 +12,11 @@ body {
 section {
     margin-bottom: 10%;}
 
+section hr.title-line {
+    width: 20%;
+    height: 3px;
+    background-color: white;}
+
 h1,
 h2,
 h3,
@@ -195,9 +200,6 @@ h6 {
 .sect .gallery{
     padding-top: 40px;}
 
-.sect #service_heading {
-    text-align: center;}
-
 #gallery i, #portfolio i {
     font-size: 100%;
     background:rgba(255,255,255,0.5);
@@ -317,9 +319,6 @@ section#news figure ul{
     margin-bottom: 0;
     padding: 3%;}
 
-section#news #news_heading {
-    text-align: center;}
-
 section#news { 
     margin-top: 5%;}
 
@@ -330,7 +329,6 @@ section#news h4, section#news p {
 
 /*Pricing*/
 section#pricing #pricing_heading {
-    text-align: center;
     margin-bottom: 5%;}
 
 section#pricing { 
@@ -381,9 +379,6 @@ section#pricing .price ul {padding-top: 10%; padding-bottom: 10%;}
 
 
 /*testimonial*/
-section#testimonial #testimonials_heading {
-    text-align: center;}
-
 section#testimonial { 
     text-align: center;
     margin-top: 10%;}
@@ -415,7 +410,6 @@ section#contact{
     margin-bottom: 3%;}
 
 section#contact #contact_heading { 
-    text-align: center;
     margin-top: 10%;
     margin-bottom: 5%;}
 
